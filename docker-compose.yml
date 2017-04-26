@@ -31,7 +31,7 @@ services:
       - .:/var/www
 
   php:
-    image: prooph/php:7.1-fpm
+    image: prooph/php:7.1-fpm-xdebug
     volumes:
       - .:/var/www
     depends_on:
